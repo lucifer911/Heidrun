@@ -98,6 +98,12 @@ Example error response:
 4. Build & run the app with: `make build`
 5. Visit https://localhost:8006 to access the application and https://localhost:8006/horizon to view the queue
 
+### If docker gives error about composer, run these commands
+
+* 'sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose
+* 'sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose
+* 'sudo chmod +x /usr/bin/docker-compose
+
 ### Available `make` Commands
 
 * `build` Rebuild all docker containers
